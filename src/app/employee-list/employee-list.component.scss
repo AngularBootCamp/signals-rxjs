@@ -1,0 +1,6 @@
+@use '../../../shared/styles/abc/_layout.scss';
+
+:host,
+.controls {
+  @include layout.two-across;
+}
