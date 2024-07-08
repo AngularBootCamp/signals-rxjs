@@ -1,4 +1,4 @@
-import { AsyncPipe, NgFor } from '@angular/common';
+import { AsyncPipe } from '@angular/common';
 import { Component, computed, signal, Signal } from '@angular/core';
 import { toObservable, toSignal } from '@angular/core/rxjs-interop';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
@@ -18,7 +18,6 @@ import { EmployeeLoaderService } from '../employee-loader.service';
     AsyncPipe,
     EmployeeListTableViewComponent,
     EmployeeDetailComponent,
-    NgFor,
     ReactiveFormsModule
   ]
 })
